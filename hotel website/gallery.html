@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+<style>
+ #gallery{
+    display:grid;
+    grid-template-columns:30% 70%;
+    margin-bottom:10%;
+}
+ #infa {
+        border: 1px solid;
+        border-radius:20px;
+        margin: 20px;
+        height: 40vh;
+        background: blue;
+        width:90%;
+      }
+      p{
+            text-align:center;
+            margin:20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:white;
+        }
+      #picha{
+    border:none;
+    border-radius:20px;
+    margin:20px;
+    height:50vh;
+    width:70%;
+    margin-left: 180px;
+}
+</style>
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu">
+            <h1 id="logo"><img src="images/logos.jpg" width="30%" height="100%"></h1>
+            <nav id="nav">
+
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="properties.html">properties</a></li>
+                    <li><a href="bookings.html">bookings</a></li>
+                    <li><a href="feedback.html">feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="welcome">
+            <div id="notice">
+                WELCOME TO OLLARO HOTEL
+            </div>
+            <div id="accounts">
+                
+                    <li><a href="create.html">create</a></li>
+                <li><a href="login.html">login</a></li>
+                
+            </div>
+        </div>
+    </header>
+    <section id="gallery">
+            <div id="infa">
+                    <p>tel:0742019505</p>
+                    <p>email:kelvinmugo360@gmail.com</p>
+                  </div>
+        <div id="picha">
+            <div id="slider" class="single" style="height:300px; width:100%; overflow: hidden;">
+                    <div style="height: 100%; width:100%;"><img src="images/bedroom.jpg"  width="100%"
+                        style="height:100%; margin: auto; object-fit: cover;"></div>
+                        <div style="height: 100%; width:100%;"><img src="images/COKA.png" width="100%"
+    style="height:100%; margin: auto; object-fit: cover;"></div>
+    <div style="height: 100%; width:100%;"> <img src="images/dina.jpg"  width="100%"
+    style="height:100%; margin: auto; object-fit: cover;"></div> 
+    <div style="height: 100%; width:100%;"><img src="images/dining.jpg"  width="100%"
+    style="height:100%; margin: auto; object-fit: cover;"></div>
+    <div style="height: 100%; width:100%;"> <img src="images/food.jpg"  width="100%"
+    style="height:100%; margin: auto; object-fit: cover;"></div>
+    <div style="height: 100%; width:100%;"><img src="images/head.jpg"  width="100%"
+    style="height:100%; margin: auto; object-fit: cover;"></div>
+  <div style="height: 100%; width:100%;"><img src="images/maji.jpg"   width="100%"
+   style="height:100%; margin: auto; object-fit: cover;"></div> 
+   <div style="height: 100%; width:100%;"> <img src="images/relax.jpg"   width="100%"
+    style="height:100%; margin: auto; object-fit: cover;"></div>   
+    <div style="height: 100%; width:100%;"> <img src="images/spur.jpg"   width="100%"
+     style="height:100%; margin: auto; object-fit: cover;"></div>
+     <div style="height: 100%; width:100%;"> <img src="images/swimo.jpg"   width="100%"
+      style="height:100%; margin: auto; object-fit: cover;"></div>    
+      <div style="height: 100%; width:100%;"><img src="images/swing.jpg"  width="100%"
+         style="height:100%; margin: auto; object-fit: cover;"></div>
+         <div style="height: 100%; width:100%;"><img src="images/ton.jpg"  width="100%"
+        style="height:100%; margin: auto; object-fit: cover;"></div>
+         </div>
+        </div>
+    </section>
+        <div id="footer">
+        
+        <div id="navi">
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="properties.html">properties</a></li>
+                <li><a href="bookings.html">bookings</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+            </ul>
+        </div>
+        <div id="navi">
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="properties.html">properties</a></li>
+                <li><a href="bookings.html">bookings</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+            </ul>
+        </div>
+        <div id="navi">
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="properties.html">properties</a></li>
+                <li><a href="bookings.html">bookings</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+            </ul>
+        </div>
+        
+        
+        <h4 style="text-align:center;color:white;">copyright:kelvin kevoke</h4>
+        
+        
+    </div>
+    <script src="jsquery/jquery.min.js"></script>
+    <script src="jsquery/slick.min.js"></script>
+    <script>
+    $('.single').slick({
+    dots:true,
+    autoplay:true,
+    autoplaySpeed:1500,
+    infinite:true,
+    speed:500,
+    fade:true,
+    cssEase:'linear'
+});
+</script>
+    </body>
+    
+    </html>

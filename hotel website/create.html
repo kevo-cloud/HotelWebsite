@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <title>create</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+      #creating {
+        border: none;
+        margin: 20px auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        height: 50%;
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="number"] {
+        padding: 5px;
+        margin: 10px;
+        border-radius: 30px;
+        border: 1px solid;
+        outline: none;
+      }
+      input[type="submit"] {
+        background: blue;
+        padding: 10px;
+        color: white;
+        margin: 10px;
+        border: none;
+        border-radius: 20px;
+        display: grid;
+        place-items: center;
+        margin: 20px auto;
+        width: 10%;
+        outline: none;
+      }
+      input[type="submit"]:hover {
+        background: green;
+      }
+      h3 {
+        background: blue;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+        display: grid;
+        place-items: center;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu">
+        <h1 id="logo">
+          <img src="images/logos.jpg" width="30%" height="100%" />
+        </h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="properties.html">properties</a></li>
+            <li><a href="bookings.html">bookings</a></li>
+            <li><a href="feedback.html">feedback</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="welcome">
+        <div id="notice">
+          WELCOME TO OLLARO HOTEL
+        </div>
+        <div id="accounts">
+          <li><a href="create.html">create</a></li>
+          <li><a href="login.html">login</a></li>
+        </div>
+      </div>
+    </header>
+    <h3>create account</h3>
+    <div id="creating">
+      <div>
+        fullname
+        <input type="text" name="fullnames" placeholder="fullnames" required />
+      </div>
+
+      <div>
+        email <input type="text" name="email" placeholder="email" required />
+      </div>
+      <div>
+        passport
+        <input
+          type="number"
+          name="passport"
+          placeholder="enter your passport"
+          required
+        />
+      </div>
+      <div>
+        username
+        <input type="text" name="username" placeholder="username" required />
+      </div>
+      <div>
+        password
+        <input
+          type="password"
+          name="password"
+          placeholder="password"
+          required
+        />
+      </div>
+      <div>
+        confirm
+        <input
+          type="password"
+          name="confirmpassword"
+          placeholder="confirmpassword"
+          required
+        />
+      </div>
+    </div>
+    <input type="submit" name="submit" value="create" />
+    <div id="footer">
+      <div id="navi">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="properties.html">properties</a></li>
+          <li><a href="bookings.html">bookings</a></li>
+          <li><a href="feedback.html">feedback</a></li>
+        </ul>
+      </div>
+      <div id="navi">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="properties.html">properties</a></li>
+          <li><a href="bookings.html">bookings</a></li>
+          <li><a href="feedback.html">feedback</a></li>
+        </ul>
+      </div>
+      <div id="navi">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="properties.html">properties</a></li>
+          <li><a href="bookings.html">bookings</a></li>
+          <li><a href="feedback.html">feedback</a></li>
+        </ul>
+      </div>
+      <h4 style="text-align:center;color:white;">copyright:kelvin kevoke</h4>
+    </div>
+  </body>
+</html>
